@@ -1,14 +1,14 @@
 {
-  "name": "SAMI Immunotherapy Model",
-  "platform": {
-    "r": "4.1.0"
-  },
-  "dependencies": {
-    "shiny": "1.7.1",
-    "ggplot2": "3.3.5",
-    "patchwork": "1.1.1",
-    "viridis": "0.6.2",
-    "dplyr": "1.0.7",
-    "grid": "4.0.0"
-  }
+  "app_name": "SAMI",
+  "main": "app.R",
+  "platform": "R",
+  "r_version": "4.0.3",
+  "packages": [
+    "shiny",
+    "ggplot2",
+    "patchwork",
+    "viridis",
+    "dplyr",
+    "grid"
+  ]
 }
