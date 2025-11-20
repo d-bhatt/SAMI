@@ -1,0 +1,12 @@
+{
+  "name": "your_shiny_app",
+  "dependencies": {
+    "R": "4.0.0",
+    "shiny": "1.7.1",
+    "ggplot2": "3.3.5",
+    "patchwork": "1.1.1",
+    "viridis": "0.6.2",
+    "dplyr": "1.0.7",
+    "grid": "4.0.0"
+  }
+}
