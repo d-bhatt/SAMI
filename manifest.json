@@ -1,7 +1,7 @@
 {
-  "name": "your_shiny_app",
+  "name": "SAMI",
   "platform": {
-    "r": "4.0.0"
+    "r": "4.5.2"
   },
   "dependencies": {
     "shiny": "1.7.1",
@@ -12,5 +12,3 @@
     "grid": "4.0.0"
   }
 }
-
-
