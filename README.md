@@ -12,6 +12,8 @@ The **SAMI** model simulates several important aspects of tumor-immune interacti
   - **Crowding Mode**: Choose between "inhibit" (reduces expression in crowded regions) and "promote" (increases expression in crowded regions) for cell-cell interactions. A **Gaussian kernel** is used for crowding calculations.
   - **Ischemia**: Oxygen and nutrient limitations affect cell survival and antigen expression. You can simulate ischemia patterns either at the **center** or **periphery** of the tumor.
 
+![SAMI App Logo](SAMImRNA.png)
+
 ### **2. Antigen Expression and Therapy Dynamics**
 - **Stochastic Antigen Expression**: Simulates variable antigen production at the single-cell level, representing natural fluctuations in gene expression.
 - **Therapy Settings**: Supports **self-amplifying mRNA (sa-mRNA) therapy** with specific transcription and translation rates.
@@ -23,6 +25,8 @@ The **SAMI** model simulates several important aspects of tumor-immune interacti
   - **T Cell Parameters**: Configure the number of T cells and their ability to kill tumor cells based on proximity, antigen recognition, and immune exhaustion.
   - **T Cell Killing Radius**: T cells are capable of killing tumor cells within a defined radius, which can be adjusted in the simulation.
   - **Antigen Specificity**: The model allows for customization of antigen recognition by T cells, including recognition of **vaccine** and **innate** antigens, or a more **non-specific** killing mode.
+
+![SAMI App Logo](SAMI_Tcells.png)
 
 ### **4. Environmental Effects**
 - **Ischemia**: Simulates nutrient and oxygen limitation, affecting cells differently depending on their position within the tumor (center vs. periphery).
