@@ -1,7 +1,7 @@
 {
   "name": "your_shiny_app",
   "dependencies": {
-    "R": "4.0.0",
+    "R": "4.1.0",
     "shiny": "1.7.1",
     "ggplot2": "3.3.5",
     "patchwork": "1.1.1",
@@ -10,3 +10,4 @@
     "grid": "4.0.0"
   }
 }
+
